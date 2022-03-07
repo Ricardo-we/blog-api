@@ -5,6 +5,7 @@ from rest_framework.decorators import api_view, parser_classes
 from rest_framework.parsers import MultiPartParser
 from .serializers import PostsSerializer, UsersSerializer, PostCommentSerializer
 from django.core.paginator import Paginator
+import requests
 # Create your views here.
 
 @csrf_exempt
