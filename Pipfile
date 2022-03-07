@@ -17,6 +17,7 @@ cloudinary = "*"
 psycopg2 = "*"
 psycopg = "==3.0.7"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
